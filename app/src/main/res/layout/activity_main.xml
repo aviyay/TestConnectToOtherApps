@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="100dp"
+
+        android:orientation="horizontal" >
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"/>
+
+        <Button android:id="@+id/call_button"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+
+            android:textSize="25sp"
+            android:text="@string/button_call"
+
+            android:onClick="Call"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <Button android:id="@+id/email_button"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+
+            android:textSize="25sp"
+            android:text="@string/button_email"
+
+            android:onClick="Email"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+
+        android:orientation="horizontal" >
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"/>
+
+        <Button android:id="@+id/browse_button"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+
+            android:textSize="25sp"
+            android:text="@string/button_browse"
+
+            android:onClick="Browse"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <Button android:id="@+id/map_button"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+
+            android:textSize="25sp"
+            android:text="@string/button_map"
+
+            android:onClick="Map"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <Button android:id="@+id/calendar_button"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+
+        android:textSize="25sp"
+        android:text="@string/button_calendar"
+
+        android:onClick="Calendar"/>
+
+</LinearLayout>
